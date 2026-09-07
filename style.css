@@ -287,3 +287,11 @@ footer .questions {
     color: white;
     font-size: 14px;
 }
+
+.faqbox .answer {
+  display: none;
+  padding: 20px;
+}
+.faqbox.active .answer {
+  display: block;
+}
